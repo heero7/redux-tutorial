@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 
 // import the reducers
-import reducers from './reducers/index.reducer';
+import reducers from './reducers';
 
 // Minimum needed to start redux
 // below line creates a store
